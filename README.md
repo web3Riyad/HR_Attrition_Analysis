@@ -30,19 +30,15 @@ Feature Types
 - Categorical Features: Department, JobRole, EducationField, MaritalStatus
 
 🧠 Machine Learning Approach
+
 🔹 Preprocessing
 
-Missing value handling using SimpleImputer
-
-Feature scaling using StandardScaler
-
-Categorical encoding using:
-
-LabelEncoder (binary features)
-
-OneHotEncoder (multi-class categorical features)
-
-Combined using ColumnTransformer
+- Missing value handling using SimpleImputer
+- Feature scaling using StandardScaler
+- Categorical encoding using:
+- LabelEncoder (binary features)
+- OneHotEncoder (multi-class categorical features)
+- Combined using ColumnTransformer
 
 🔹 Model
 
@@ -58,19 +54,13 @@ Implemented using Scikit-learn Pipeline
 
 The model is evaluated using:
 
-Accuracy
-
-Precision (Weighted)
-
-Recall (Weighted)
-
-F1 Score (Weighted)
-
-ROC-AUC Score
-
-Confusion Matrix
-
-Classification Report
+- Accuracy
+- Precision (Weighted)
+- Recall (Weighted)
+- F1 Score (Weighted)
+- ROC-AUC Score
+- Confusion Matrix
+- Classification Report
 
 💾 Model Saving
 
@@ -125,23 +115,13 @@ Hugging Face Spaces
 
 This project demonstrates a complete end-to-end ML workflow:
 
-Data preprocessing
+- Data preprocessing
+- Model building
+- Evaluation
+- Serialization
+- Deployment
 
-Model building
-
-Evaluation
-
-Serialization
-
-Deployment
-
-It can be further improved by:
-
-Trying advanced models (XGBoost, RandomForest)
-
-Handling class imbalance
-
-Feature importance analysis
+🫡 If you have suggestions or identify a better approach, I would be happy to discuss and improve this project.
 
 👨‍💻 Author
 
