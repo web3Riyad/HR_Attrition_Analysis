@@ -1,4 +1,5 @@
 📊 HR Employee Attrition Prediction
+
 📌 Project Overview
 
 Employee attrition is a critical challenge for organizations, as losing skilled employees increases recruitment cost and reduces productivity.
@@ -24,9 +25,9 @@ Target Variable: Attrition
 
 Feature Types
 
-Numerical Features: Age, MonthlyIncome, TotalWorkingYears, etc.
-Binary Features: Gender, OverTime
-Categorical Features: Department, JobRole, EducationField, MaritalStatus
+- Numerical Features: Age, MonthlyIncome, TotalWorkingYears, etc.
+- Binary Features: Gender, OverTime
+- Categorical Features: Department, JobRole, EducationField, MaritalStatus
 
 🧠 Machine Learning Approach
 🔹 Preprocessing
@@ -99,9 +100,13 @@ gradio
 
 📁 Project Structure
 ├── app.py
+
 ├── model.pkl
+
 ├── requirements.txt
+
 ├── HR-Employee-Attrition.csv
+
 ├── README.md
 
 🛠 Technologies Used
